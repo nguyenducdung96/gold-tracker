@@ -1,0 +1,15 @@
+{
+  "name": "@gold-tracker/worker",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260903.0",
+    "typescript": "^5.8.3"
+  }
+}

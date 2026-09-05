@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#0b1220"/>
+  <path d="M128 340h256l-42-168H170z" fill="#fbbf24"/>
+  <path d="M170 172h172l-28-56H198z" fill="#fde68a"/>
+  <text x="256" y="296" text-anchor="middle" font-family="Arial" font-weight="700" font-size="96" fill="#0b1220">Au</text>
+</svg>

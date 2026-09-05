@@ -1,0 +1,17 @@
+{
+  "name": "gold-tracker",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "npm run build -w apps/web",
+    "typecheck": "npm run typecheck -w apps/worker",
+    "deploy": "npm run build && wrangler deploy",
+    "dev:web": "npm run dev -w apps/web",
+    "dev": "npm run build && wrangler dev"
+  },
+  "devDependencies": {
+    "wrangler": "^4.37.1"
+  }
+}
